@@ -38,4 +38,4 @@ pip install -r requirements.txt
 
 ### 2. Download pretrained models
 StyleGallery is training-free but utilizes pretrained models of several existing projects. 
-For the basic running, we need to download SD 1.5 and dinov2.
+For the basic running, we need to download [SD1.5](https://ai.gitee.com/hf-models/runwayml/stable-diffusion-v1-5/tree/main) and [dinov2](https://huggingface.co/facebook/dinov2-base).
