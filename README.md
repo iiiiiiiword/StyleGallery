@@ -64,4 +64,4 @@ python gradio.py
 We sincerely thank the excellent open-source projects:
 * [AttentionDistillation](https://github.com/xugao97/AttentionDistillation) CVPR 2026
 * [StyleID](https://github.com/jiwoogit/StyleID) CVPR 2024 Highlight
-* 
+
