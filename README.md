@@ -10,5 +10,5 @@ This is the official PyTorch implementation of the following publication:
 ## 📖 Introduction
 **TL;DR: StyleGallery is a training-free and semantic-aware framework to generate a high-quality stylized image from arbitrary image references.** 
 <div align="center">
-  <img src="assets/teaser.png" width="1600">
+  <img src="assets/teaser.png" width="3600">
 </div>a
