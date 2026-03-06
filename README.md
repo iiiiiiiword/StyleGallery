@@ -26,7 +26,7 @@ The code has been tested on:
 * Pytorch 2.6.0
 * GeForce RTX 4090
 
-### 1. Create a Conda Environment
+### Create a Conda Environment
 ```bash
 # create env using conda
 conda create -n StyleGallery python=3.10
@@ -36,7 +36,7 @@ conda activate StyleGallery
 pip install -r requirements.txt
 ```
 
-### 2. Download pretrained models
+### Download pretrained models
 StyleGallery is training-free but utilizes pretrained models of several existing projects. 
 
 For the basic running, we need to download [SD1.5](https://ai.gitee.com/hf-models/runwayml/stable-diffusion-v1-5/tree/main) and [DINOv2](https://huggingface.co/facebook/dinov2-base). 
