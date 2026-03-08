@@ -650,7 +650,7 @@ class StyleGallery(StableDiffusionPipeline):
         depth = model.infer_image(img)  
 
         if output_dir:
-            os.makedirs(output_dir, exist_ok=True)
+            # os.makedirs(output_dir, exist_ok=True)
             base = os.path.splitext(os.path.basename(image_path))[0]
             save_path = os.path.join(output_dir, base + "_depth.png")
 
