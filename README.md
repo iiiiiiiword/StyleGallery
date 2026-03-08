@@ -39,8 +39,8 @@ pip install -r requirements.txt
 ### Download pretrained models
 StyleGallery is training-free but utilizes pretrained models of several existing projects. 
 
-For the basic running, we need to download [SD1.5](https://ai.gitee.com/hf-models/runwayml/stable-diffusion-v1-5/tree/main), [DINOv2](https://huggingface.co/facebook/dinov2-base) and [DepthAnything](https://github.com/LiheYoung/Depth-Anything). 
-StyleGallery also supports [SAM](https://github.com/facebookresearch/segment-anything) for base mask generation. 
+For the basic running, we need to download [SD1.5](https://ai.gitee.com/hf-models/runwayml/stable-diffusion-v1-5/tree/main), [DINOv2](https://huggingface.co/facebook/dinov2-base) and [DepthAnything](https://github.com/LiheYoung/Depth-Anything), set use_depth=True. 
+StyleGallery also supports [SAM](https://github.com/facebookresearch/segment-anything) for base mask generation, set use_sam=True. 
 
 Please place SD1.5, DINOv2 and DepthAnything in the ./pretrained_models folder.
 
