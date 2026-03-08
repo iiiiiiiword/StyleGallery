@@ -56,6 +56,7 @@ We also support the combined use of SD1.5 and accelerated models ([LCM-SD1.5](ht
 # You can choose which model to use by setting --mode=hyper or lcm. 
 python demo_accelerate.py
 ```
+The results of precomputations are stored in the directory processed_data under content/style and can be automatically reused later.
 
 ## ⚙️ Gradio interface
 Run the following command to start the Gradio:
