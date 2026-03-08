@@ -77,7 +77,7 @@ if __name__ == "__main__":
     parser.add_argument("--noise_steps", type=int, default=15)
     parser.add_argument("--num_optimize_steps", type=int, default=150)
     parser.add_argument("--c_ratio", type=float, default=0.26)
-    parser.add_argument("--print", action="store_true", default=True, help="show cluster mathcing results")
+    parser.add_argument("--print", action="store_true", default=False, help="show cluster mathcing results")
 
     args = parser.parse_args()
     main(args)
