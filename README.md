@@ -50,6 +50,7 @@ Try StyleGallery using the following commands:
 python demo.py
 ```
 Tips: It's best to resize the image to 512x512 for optimal results.
+
 We also support the combined use of SD1.5 and accelerated models ([LCM-SD1.5](https://huggingface.co/latent-consistency/lcm-lora-sdv1-5) and [Hyper-SD1.5](https://huggingface.co/ByteDance/Hyper-SD)) to improve time efficiency.
 ```bash
 python demo_lcm.py
