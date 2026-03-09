@@ -61,7 +61,7 @@ The results of precomputations are stored in the directory processed_data under 
 ## ⚙️ Gradio interface
 Run the following command to start the Gradio:
 ```bash
-python gradio.py
+python interface.py
 ```
 ## 🔗 Related projects
 We sincerely thank these excellent open-source projects:
