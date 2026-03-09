@@ -178,7 +178,7 @@ class StyleGallery(StableDiffusionPipeline):
                     if m.any():
                         centroids[i] = X_pca[m].mean(dim=0)
                 new_cluster_labels, new_centroids = self.merge_similar_clusters(
-                    cluster_labels, centroids, latent_feature, X_pca, similar_threshold=0.65
+                    cluster_labels, centroids, latent_feature, X_pca, similar_threshold=0.5
                 )
             else:
                 silhouette_scores = []
@@ -193,7 +193,7 @@ class StyleGallery(StableDiffusionPipeline):
                 cluster_labels, centroids = labels_per_k[optimal_clusters - 2]
 
                 new_cluster_labels, new_centroids = self.merge_similar_clusters(
-                    cluster_labels, centroids, latent_feature, X_pca, similar_threshold=0.8
+                    cluster_labels, centroids, latent_feature, X_pca, similar_threshold=0.85
                 )
 
                 if depth_feature is not None:
