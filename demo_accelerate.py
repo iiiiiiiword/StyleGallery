@@ -10,9 +10,6 @@ from pipeline import StyleGallery
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def main(args):
-    # ==========================================
-    # 根据选择的模式，自动分配对应的默认参数
-    # ==========================================
     mode_defaults = {
         "hyper": {
             "num_optimize_steps": 28,
@@ -31,7 +28,6 @@ def main(args):
     }
     
     cfg = mode_defaults[args.mode]
-    # 如果用户在命令行传了参数就用用户的，否则用预设的
     num_optimize_steps = args.num_optimize_steps if args.num_optimize_steps is not None else cfg["num_optimize_steps"]
     iters = args.iters if args.iters is not None else cfg["iters"]
     lr = args.lr if args.lr is not None else cfg["lr"]
@@ -83,10 +79,7 @@ def main(args):
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
-
-    # ==========================================
-    # 核心差异区：根据模式加载不同的 LoRA 和调度器
-    # ==========================================
+        
     if args.mode == "hyper":
         print(f">>> Using Hyper-SD (Turbo Mode) with {lora_path}")
         pipe.load_lora_weights(lora_path)
