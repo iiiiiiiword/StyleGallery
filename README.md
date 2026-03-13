@@ -4,7 +4,7 @@ This is the official PyTorch implementation of the following publication:
 > **"StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References".** <br>
 > Boyu He, Yunfan Ye, Chang Liu, Weishang Wu, Fang Liu, Zhiping Cai <br>
 > *CVPR 2026* <br>
-> [Project Page](https://iiiiiiiword.github.io/SG-project-page/) | [Paper]()
+> [Project Page](https://iiiiiiiword.github.io/SG-project-page/) | [Paper](https://arxiv.org/abs/2603.10354v2)
 
 ## 📖 Introduction
 **TL;DR: StyleGallery is a training-free and semantic-aware framework to generate a high-quality stylized image from arbitrary image references.** 
