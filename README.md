@@ -1,5 +1,5 @@
 # StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References
-This is the official PyTorch implementation of the following publication: 
+This is the official PyTorch implementation of the following publication，if you like our project, please give us a star ⭐ on GitHub for latest update.
 
 > **"StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References".** <br>
 > Boyu He, Yunfan Ye, Chang Liu, Weishang Wu, Fang Liu, Zhiping Cai <br>
